@@ -40,5 +40,12 @@ virtualenv myenv
 pip install python-dotenv
 
 ```
+
+4. To install the packages for this project, use the following command after accessing "requirements.txt" file to install them:
+```python
+
+pip install -r requirements.txt
+
+```
 Feel free to fork this project and utilize into your own Flask project!
 
