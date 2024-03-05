@@ -20,8 +20,8 @@ mail.init_app(app)
 @app.route("/", methods=["GET", "POST"])
 @app.route("/home", methods=["GET", "POST"])
 def home():
-    msg = Message("Hello", sender="deecodes@fastmail.com", recipients=["denzelkinyua11@gmail.com"])
-    msg.body = "This is a test email, ignore"
+    msg = Message("Hi", sender="hr@demo.com", recipients=["admin@demo.com"])
+    msg.body = "Add your message here"
     mail.send(msg)
     return "Email sent successfully!"
 
